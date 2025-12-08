@@ -32,19 +32,6 @@
 以下の3種類のバックエンドをサポートしています。
 
 - **CPU**: 動作が非常に遅いため、非推奨です。
-- **CUDA**: NvidiaのGPU専用。[CUDA Toolkit 12系](https://developer.nvidia.com/cuda-downloads)をインストールする必要があります。
-- **Vulkan**: GPUのドライバーに標準で含まれているため、追加のインストールは不要です。
-
-# コミュニティ
-
-## 開発を支援する
-- [GitHub Sponsors (Miwa)](https://github.com/sponsors/ensan-hcl): 変換エンジンの開発者
-- [Patreon (fkunn1326)](https://www.patreon.com/c/fkunn1326): Windowsに移植した人
-
-## 開発に参加する
-
-### 開発環境のセットアップ
-
 - [Rust](https://www.rust-lang.org/tools/install)
 - [Swift for Windows](https://www.swift.org/install/windows/) (Swift 6.0以上)
 - [protoc](https://protobuf.dev/installation/) 
