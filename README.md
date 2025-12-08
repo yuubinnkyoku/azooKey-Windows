@@ -2,11 +2,13 @@
 
 [AzooKeyKanaKanjiConverter](https://github.com/azooKey/AzooKeyKanaKanjiConverter)を利用したWindows版IMEです。
 
+このフォークでは、**CUDA13へのサポート**を追加しています
+
 > [!WARNING]
 > 現在開発中であるため、安定性や機能に関しては保証できません。使用する際は自己責任でお願いします。
 
 # インストール方法
-[Release](https://github.com/fkunn1326/azooKey-Windows/releases)から`azookey-setup.exe`をダウンロードし、インストーラーを実行してください。
+[Release](https://github.com/yuubinnkyoku/azooKey-Windows/releases)から`azookey-setup.exe`をダウンロードし、インストーラーを実行してください。
 
 # 機能
 
@@ -32,7 +34,7 @@
 以下の3種類のバックエンドをサポートしています。
 
 - **CPU**: 動作が非常に遅いため、非推奨です。
-- **CUDA**: NvidiaのGPU専用。[CUDA Toolkit 12系](https://developer.nvidia.com/cuda-downloads)をインストールする必要があります。
+- **CUDA**: NvidiaのGPU専用。[CUDA Toolkit 13系](https://developer.nvidia.com/cuda-downloads)をインストールする必要があります。
 - **Vulkan**: GPUのドライバーに標準で含まれているため、追加のインストールは不要です。
 
 # コミュニティ
