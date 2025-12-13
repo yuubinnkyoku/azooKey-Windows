@@ -46,7 +46,6 @@
 ## 開発に参加する
 
 ### 開発環境のセットアップ
-
 - [Rust](https://www.rust-lang.org/tools/install)
 - [Swift for Windows](https://www.swift.org/install/windows/) (Swift 6.0以上)
 - [protoc](https://protobuf.dev/installation/) 
