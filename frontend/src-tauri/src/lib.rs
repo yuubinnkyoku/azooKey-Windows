@@ -62,7 +62,7 @@ fn check_capability() -> Capability {
     };
 
     // Check for CUDA availability
-    let cuda_files = ["cudart64_12.dll", "cublas64_12.dll"];
+    let cuda_files = ["cudart64_13.dll", "cublas64_13.dll"];
     let cuda_available = cuda_files.iter().all(|file| {
         // Check if the file exists in system path or in the current directory
         std::env::var("PATH")

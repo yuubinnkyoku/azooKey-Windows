@@ -2,11 +2,13 @@
 
 [AzooKeyKanaKanjiConverter](https://github.com/azooKey/AzooKeyKanaKanjiConverter)を利用したWindows版IMEです。
 
+このフォークでは、**CUDA13へのサポート**を追加しています
+
 > [!WARNING]
 > 現在開発中であるため、安定性や機能に関しては保証できません。使用する際は自己責任でお願いします。
 
 # インストール方法
-[Release](https://github.com/fkunn1326/azooKey-Windows/releases)から`azookey-setup.exe`をダウンロードし、インストーラーを実行してください。
+[Release](https://github.com/yuubinnkyoku/azooKey-Windows/releases)から`azookey-setup.exe`をダウンロードし、インストーラーを実行してください。
 
 # 機能
 
@@ -32,6 +34,18 @@
 以下の3種類のバックエンドをサポートしています。
 
 - **CPU**: 動作が非常に遅いため、非推奨です。
+- **CUDA**: NvidiaのGPU専用。[CUDA Toolkit 13系](https://developer.nvidia.com/cuda-downloads)をインストールする必要があります。
+- **Vulkan**: GPUのドライバーに標準で含まれているため、追加のインストールは不要です。
+
+# コミュニティ
+
+## 開発を支援する
+- [GitHub Sponsors (Miwa)](https://github.com/sponsors/ensan-hcl): 変換エンジンの開発者
+- [Patreon (fkunn1326)](https://www.patreon.com/c/fkunn1326): Windowsに移植した人
+
+## 開発に参加する
+
+### 開発環境のセットアップ
 - [Rust](https://www.rust-lang.org/tools/install)
 - [Swift for Windows](https://www.swift.org/install/windows/) (Swift 6.0以上)
 - [protoc](https://protobuf.dev/installation/) 
