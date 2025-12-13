@@ -39,6 +39,10 @@ jobs:
 
       - name: Download prebuilt llama
         run: |
+          $llamaCpuDir = "llama_cpu"
+          $llamaCudaDir = "llama_cuda"
+          $llamaVulkanDir = "llama_vulkan"
+
           function Download-Extract {
             param (
               [string]$url,
