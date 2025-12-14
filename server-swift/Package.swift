@@ -17,7 +17,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-.package(url: "https://github.com/azookey/AzooKeyKanaKanjiConverter", revision: "fa3eeddeb8e7cfa881e7253599ae6fe158b89721f")
+.package(url: "https://github.com/azookey/AzooKeyKanaKanjiConverter", revision: "3a4e9146246e76ab6f66537bcdf086eff812a18b")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
