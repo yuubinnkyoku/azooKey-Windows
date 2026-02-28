@@ -2,7 +2,7 @@
 
 [AzooKeyKanaKanjiConverter](https://github.com/azooKey/AzooKeyKanaKanjiConverter)を利用したWindows版IMEです。
 
-このフォークでは、**CUDA13へのサポート**を追加しています
+このフォークでは、**CUDA13へのサポート**を追加~~しています~~しようとしましたが、なんか起動しません
 
 > [!WARNING]
 > 現在開発中であるため、安定性や機能に関しては保証できません。使用する際は自己責任でお願いします。
